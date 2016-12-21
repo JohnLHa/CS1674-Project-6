@@ -1,6 +1,6 @@
 function [ centers ] = detectCircles( im, edges, r, top_k )
 %DETECTCIRCLES Summary of this function goes here
-%   Detailed explanation goes here
+%   Detects circles and outputs a figure showing the circles
 quant = 5;
 [x,y,~] = size(im);
 [numEdges,~] = size(edges);

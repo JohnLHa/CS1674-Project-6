@@ -1,6 +1,6 @@
 function [ error ] = computeQuantizationError( origImg, quantizedImg )
 %COMPUTEQUANTIZATIONERROR Summary of this function goes here
-%   Detailed explanation goes here
+%  computes errors in quantization
 
 [r,c,z] = size(origImg);
 error =0;

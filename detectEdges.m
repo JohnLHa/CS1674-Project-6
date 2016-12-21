@@ -1,6 +1,6 @@
 function [ edges ] = detectEdges(im, threshold)
 %DETECTEDGES Summary of this function goes here
-%   Detailed explanation goes here
+%   Detects edges and outputs a figure with edges shown
 
 [r,c,z] = size(im);
 newIm = double(rgb2gray(im));

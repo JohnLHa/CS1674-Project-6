@@ -1,4 +1,6 @@
 im = imread('fish.jpg');
+
+%Run kmeans quantizations
 [outIm1, meanColors1, clusterIds1]=quantizeRGB(im, 2);
 imshow(outIm1), title('Image with K = 2'),figure; 
 [outIm2, meanColors2, clusterIds2]=quantizeRGB(im, 3);

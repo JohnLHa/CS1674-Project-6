@@ -1,4 +1,5 @@
 im = imread('jupiter.jpg');
+%Reads in image and finds edges and circles
 
 edges = detectEdges(im, 100);
 centers = detectCircles(im, edges, 10, 10);

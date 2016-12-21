@@ -1,6 +1,6 @@
 function [ outputImg, meanColors, clusterIds ] = quantizeRGB(origImg, k)
 %QUANTIZERGB Summary of this function goes here
-%   Detailed explanation goes here
+%   Quantize the RGB
 
 im = double(origImg);
 rows = size(im,1);
